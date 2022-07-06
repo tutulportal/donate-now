@@ -297,3 +297,153 @@
 }
 
 /* our donate plan section design ends */
+
+
+
+
+/* contribute section design start */
+
+.contribute{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inner-contribute{
+    width: 1280px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contribute-wrap-01{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 100px 0;
+}
+
+.contribute-wrap-01 .left-side-info{
+    width: 50%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left-side-info h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #262626;
+}
+
+.left-side-info p{
+    color: #262626;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-align: left;
+    width: 90%;
+    padding: 10px 0;
+    line-height: 1.5;
+}
+
+.left-side-info a{
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(30deg, #f40e9b, #f46e1e);
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 20px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    transition: 0.5s all ease-in-out;
+}
+
+.left-side-info a:hover{
+    box-shadow: 10px 15px 70px #f40e9b;
+}
+
+.contribute-wrap-01 .right-side-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.right-side-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contribute-wrap-02{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 100px 0;
+}
+
+.contribute-wrap-02 .right-side-info{
+    width: 50%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.right-side-info h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #262626;
+}
+
+.right-side-info p{
+    color: #262626;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-align: left;
+    width: 90%;
+    padding: 10px 0;
+    line-height: 1.5;
+}
+
+.right-side-info a{
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(30deg, #f40e9b, #f46e1e);
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 20px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    transition: 0.5s all ease-in-out;
+}
+
+.right-side-info a:hover{
+    box-shadow: 10px 15px 70px #f40e9b;
+}
+
+.contribute-wrap-02 .left-side-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.left-side-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* contribute serction design ends */
