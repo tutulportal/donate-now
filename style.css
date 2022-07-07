@@ -447,3 +447,58 @@
 }
 
 /* contribute serction design ends */
+
+
+
+/* thanks to volunteers section design start */
+
+
+.volunteers{
+    width: 100%;
+    background-image: url('shapes/56.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 0;
+}
+
+.volunteers .inner-volunteers{
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inner-volunteers h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 40px 0 10px 0;
+    color: #262626;
+}
+
+.inner-volunteers p{
+    color: #262626;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    width: 700px;
+    text-align: center;
+    padding: 0 0 30px 0;
+    line-height: 1.5;
+}
+
+.inner-volunteers img{
+    width: 70%;
+    border-radius: 15px;
+    border: 3px solid #fff;
+    box-shadow: 5px 5px 30px #a295ff;
+}
+
+
+/* thanks to volunteers section design ends */
